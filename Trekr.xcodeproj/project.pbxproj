@@ -13,6 +13,11 @@
 		F73CC6D625DC26400020BD1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73CC6D525DC26400020BD1A /* Preview Assets.xcassets */; };
 		F73CC6E125DC26410020BD1A /* TrekrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73CC6E025DC26410020BD1A /* TrekrTests.swift */; };
 		F73CC6EC25DC26410020BD1A /* TrekrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73CC6EB25DC26410020BD1A /* TrekrUITests.swift */; };
+		F73CC6FE25DC28170020BD1A /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = F73CC6FC25DC28170020BD1A /* tips.json */; };
+		F73CC6FF25DC28170020BD1A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = F73CC6FD25DC28170020BD1A /* locations.json */; };
+		F73CC70425DC47700020BD1A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73CC70325DC47700020BD1A /* Location.swift */; };
+		F73CC70925DC5F240020BD1A /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73CC70825DC5F240020BD1A /* Locations.swift */; };
+		F73CC70E25DC73240020BD1A /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73CC70D25DC73240020BD1A /* WorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		F73CC6E725DC26410020BD1A /* TrekrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrekrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73CC6EB25DC26410020BD1A /* TrekrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekrUITests.swift; sourceTree = "<group>"; };
 		F73CC6ED25DC26410020BD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73CC6FC25DC28170020BD1A /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		F73CC6FD25DC28170020BD1A /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		F73CC70325DC47700020BD1A /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F73CC70825DC5F240020BD1A /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		F73CC70D25DC73240020BD1A /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +106,14 @@
 			isa = PBXGroup;
 			children = (
 				F73CC6CE25DC263F0020BD1A /* TrekrApp.swift */,
+				F73CC70D25DC73240020BD1A /* WorldView.swift */,
 				F73CC6D025DC263F0020BD1A /* ContentView.swift */,
+				F73CC70825DC5F240020BD1A /* Locations.swift */,
+				F73CC70325DC47700020BD1A /* Location.swift */,
 				F73CC6D225DC26400020BD1A /* Assets.xcassets */,
 				F73CC6D725DC26400020BD1A /* Info.plist */,
+				F73CC6FD25DC28170020BD1A /* locations.json */,
+				F73CC6FC25DC28170020BD1A /* tips.json */,
 				F73CC6D425DC26400020BD1A /* Preview Content */,
 			);
 			path = Trekr;
@@ -235,6 +250,8 @@
 			files = (
 				F73CC6D625DC26400020BD1A /* Preview Assets.xcassets in Resources */,
 				F73CC6D325DC26400020BD1A /* Assets.xcassets in Resources */,
+				F73CC6FF25DC28170020BD1A /* locations.json in Resources */,
+				F73CC6FE25DC28170020BD1A /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73CC6D125DC263F0020BD1A /* ContentView.swift in Sources */,
+				F73CC70425DC47700020BD1A /* Location.swift in Sources */,
+				F73CC70E25DC73240020BD1A /* WorldView.swift in Sources */,
+				F73CC70925DC5F240020BD1A /* Locations.swift in Sources */,
 				F73CC6CF25DC263F0020BD1A /* TrekrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

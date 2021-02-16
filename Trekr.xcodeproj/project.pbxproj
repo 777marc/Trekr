@@ -18,6 +18,9 @@
 		F73CC70425DC47700020BD1A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73CC70325DC47700020BD1A /* Location.swift */; };
 		F73CC70925DC5F240020BD1A /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73CC70825DC5F240020BD1A /* Locations.swift */; };
 		F73CC70E25DC73240020BD1A /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73CC70D25DC73240020BD1A /* WorldView.swift */; };
+		F73CC72025DC8D300020BD1A /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73CC71F25DC8D300020BD1A /* Tip.swift */; };
+		F73CC72525DC8D3C0020BD1A /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73CC72425DC8D3C0020BD1A /* Tips.swift */; };
+		F73CC72A25DC8E830020BD1A /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73CC72925DC8E830020BD1A /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		F73CC70325DC47700020BD1A /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		F73CC70825DC5F240020BD1A /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		F73CC70D25DC73240020BD1A /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		F73CC71F25DC8D300020BD1A /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		F73CC72425DC8D3C0020BD1A /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		F73CC72925DC8E830020BD1A /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,14 +112,11 @@
 			isa = PBXGroup;
 			children = (
 				F73CC6CE25DC263F0020BD1A /* TrekrApp.swift */,
-				F73CC70D25DC73240020BD1A /* WorldView.swift */,
-				F73CC6D025DC263F0020BD1A /* ContentView.swift */,
-				F73CC70825DC5F240020BD1A /* Locations.swift */,
-				F73CC70325DC47700020BD1A /* Location.swift */,
+				F73CC71225DC8BB50020BD1A /* Views */,
+				F73CC71B25DC8D020020BD1A /* Models */,
 				F73CC6D225DC26400020BD1A /* Assets.xcassets */,
 				F73CC6D725DC26400020BD1A /* Info.plist */,
-				F73CC6FD25DC28170020BD1A /* locations.json */,
-				F73CC6FC25DC28170020BD1A /* tips.json */,
+				F73CC71725DC8C310020BD1A /* Data */,
 				F73CC6D425DC26400020BD1A /* Preview Content */,
 			);
 			path = Trekr;
@@ -143,6 +146,36 @@
 				F73CC6ED25DC26410020BD1A /* Info.plist */,
 			);
 			path = TrekrUITests;
+			sourceTree = "<group>";
+		};
+		F73CC71225DC8BB50020BD1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F73CC70D25DC73240020BD1A /* WorldView.swift */,
+				F73CC6D025DC263F0020BD1A /* ContentView.swift */,
+				F73CC72925DC8E830020BD1A /* TipsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F73CC71725DC8C310020BD1A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F73CC6FD25DC28170020BD1A /* locations.json */,
+				F73CC6FC25DC28170020BD1A /* tips.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F73CC71B25DC8D020020BD1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F73CC70825DC5F240020BD1A /* Locations.swift */,
+				F73CC70325DC47700020BD1A /* Location.swift */,
+				F73CC71F25DC8D300020BD1A /* Tip.swift */,
+				F73CC72425DC8D3C0020BD1A /* Tips.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +312,9 @@
 				F73CC6D125DC263F0020BD1A /* ContentView.swift in Sources */,
 				F73CC70425DC47700020BD1A /* Location.swift in Sources */,
 				F73CC70E25DC73240020BD1A /* WorldView.swift in Sources */,
+				F73CC72025DC8D300020BD1A /* Tip.swift in Sources */,
+				F73CC72A25DC8E830020BD1A /* TipsView.swift in Sources */,
+				F73CC72525DC8D3C0020BD1A /* Tips.swift in Sources */,
 				F73CC70925DC5F240020BD1A /* Locations.swift in Sources */,
 				F73CC6CF25DC263F0020BD1A /* TrekrApp.swift in Sources */,
 			);
